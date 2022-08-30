@@ -1,0 +1,17 @@
+<div class="ce_onepage <?php echo $this->cssclass ?>" id="<?php echo $this->cssid ?>">
+
+<div class="onepage_nav">
+
+<?php if ($this->items): ?>
+
+<ul>
+	<?php foreach ($this->items as $item): ?>
+		<li <?php if ($item['class']): ?> class="<?= $item['class'] ?>"<?php endif; ?>> <a href="{{env::path}}{{env::request}}#<?= $item['cssID'] ?>"><?= $item['headline'] ?></a></li>
+	<?php endforeach; ?>
+</ul>
+
+</div>
+
+<div class="onepage_content">
+
+<?php endif; ?>

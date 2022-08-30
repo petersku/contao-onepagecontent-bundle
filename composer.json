@@ -1,0 +1,43 @@
+{
+    "name": "petersku/contao-onepagecontent-bundle",
+    "description": "This bundle create an One Page Navigation Element.",
+	"keywords":["contao","onepage","navigation"],    
+    "license": "LGPL-3.0-or-later",
+    "type": "contao-bundle",
+	"homepage":"https://grafixlab.de",    
+    "authors": [
+        {
+            "name": "PeterSku",
+            "homepage": "https://github.com/petersku"
+        }
+    ],
+    "require": {
+	    "php":">=7.4",
+	    "contao/core-bundle":"^4.13 || ^5.0"
+    },
+	"conflict": {
+    	"contao/core": "*",
+		"contao/manager-plugin": "<2.0 || >=3.0"
+  	},
+    "autoload": {
+        "psr-4": {
+            "Petersku\\ContaoOnePageContentBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config/",
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/templates/"
+        ]
+    },
+    "extra": {
+        "contao-manager-plugin": "Petersku\\ContaoOnePageContentBundle\\ContaoManager\\Plugin"
+    },
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": true
+        }
+    }
+}
