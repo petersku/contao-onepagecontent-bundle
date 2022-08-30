@@ -15,6 +15,7 @@ With the heading and the CSS ID, the bundle creates a new navigation over the co
 
 ## CSS Styling Example
 
+```
 .ce_onepage {
 	display: flex;
 	flex-direction: row;
@@ -64,12 +65,14 @@ With the heading and the CSS ID, the bundle creates a new navigation over the co
 .ce_onepage .onepage_content div:first-child {
 	margin-top: 0;
 }
+```
 
 ## Additional JS functionality for active Element Styling with GSAP Scroll Trigger
 
 - Create a new File "js_onepage.html5" in your template Folder.
 - Add the File in your Theme or as an own HTML Element in your Article 
 
+```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 
@@ -100,5 +103,6 @@ panels.forEach((panel, i) => {
 });	
 
 </script>	
+```
 
 
