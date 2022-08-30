@@ -11,9 +11,9 @@ We want a sticky navigation in a Contao article to organize the page content nic
 Create a new start ("One Page Navigation Start") and end wrapper ("One Page Navigation End") element. Add your content elements between the wrapper elements.
 
 Add a heading to your content elements and give the elements a specific CSS ID.
-With the heading and the CSS ID, the bundle creates a new navigation over the content elements with an anchor link.
+With the heading and the CSS ID, the bundle creates a new navigation above the content elements with an anchor link.
 
-## CSS Styling Example
+### CSS Styling Example
 
 ```
 .ce_onepage {
@@ -67,7 +67,7 @@ With the heading and the CSS ID, the bundle creates a new navigation over the co
 }
 ```
 
-## Additional JS functionality for active Element Styling with GSAP Scroll Trigger
+### Additional JS functionality for active Element Styling with GSAP Scroll Trigger
 
 - Create a new File "js_onepage.html5" in your template Folder.
 - Add the File in your Theme or as an own HTML Element in your Article 
