@@ -1,10 +1,10 @@
 # Contao OnePage Content Bundle
 
-This bundle create an One Page Navigation Element.
+This bundle create an One Page Navigation Element in Contao.
 
 ## Why
 
-We want a sticky navigation in a Contao article to organize the page content nicer.
+We want a sticky navigation in an article to organize the page content nicer.
 
 ## How
 
