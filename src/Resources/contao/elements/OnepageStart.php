@@ -31,7 +31,7 @@ class OnepageStart extends ContentElement {
     }
     
 	protected function getOnepageNavigation($pid) {    
-		$objContents = \ContentModel::findPublishedByPidAndTable($this->pid, 'tl_article');
+		$objContents = \ContentModel::findPublishedByPidAndTable($this->pid, $this->ptable);
 	       
 		$items = array();
 
